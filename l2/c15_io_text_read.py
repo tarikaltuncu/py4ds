@@ -8,5 +8,5 @@ with open('points.txt', 'r') as f:
         coordinates = point.strip('()').split(', ')
         print(coordinates)
         p = Point(int(coordinates[0]), int(coordinates[1]))
-        print(p.move(1,1))
+        p.move(1,1)
         print(p)
