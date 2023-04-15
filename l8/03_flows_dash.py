@@ -40,4 +40,4 @@ def display_sankey(opacity):
 
 app.run_server(debug=True)
 
-# Run this by typing in the terminal: python l8/flows_dash.py
+# Run this by typing in the terminal: python l8/03_flows_dash.py
